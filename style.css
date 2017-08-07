@@ -1,0 +1,111 @@
+body{
+	margin:0;
+}
+@font-face{
+	font-family: Asap-Bold;
+	src:url("/home/user/Desktop/Upcomer/Upcomer/fonts/Asap-Bold.ttf");
+
+}
+
+@font-face{
+	font-family: Asap-Regular;
+	src:url("/home/user/Desktop/Upcomer/Upcomer/fonts/Asap-Regular.ttf");
+
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+    color: white;
+    background-color: #ffffff;
+    justify-content:space-around;
+    align-items: center;
+
+}
+footer{
+	display: flex;
+	flex-direction: row;
+    color: white;
+    background-color: #ffffff;
+    justify-content:center;
+
+}
+nav {
+	display: flex;
+	flex-direction: row;
+		justify-content: space-between;
+}
+nav a{
+	padding: 5px;
+}
+
+.bg1{
+	background-image: url("/home/user/Desktop/Upcomer/Upcomer/images/bg1_repeat.png");
+	display: flex;
+	flex-direction: column;
+align-items: center;
+}
+
+
+.t1{
+	font-family:Asap-Bold;
+	font-size: 52pt;
+	text-align: center;
+	color: #ffffff;
+}
+.t2{
+	font-family: Asap-Regular;
+	font-size: 24pt;
+	color:#ffffff;
+	text-align: center;
+}
+#home{
+	font-family: Asap-Bold;
+	font-size: 18pt;
+	color:#333333;
+	text-decoration: none;
+}
+#about{
+	font-family: Asap-Bold;
+	font-size: 18pt;
+	color:#999999;
+	text-decoration: none;
+}
+#feed{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+}
+#email{
+	background-color: rgba(255,255,255,0.3);
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	width: 269px;
+	color: #ffffff;
+	height: 60px;
+	font-family: Asap-Regular;
+	font-size: 20.3pt;
+	text-align: center;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	border:0;
+	
+}
+#emailconfirm{
+	background-color:#2ecc71;
+	color: #ffffff;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	height: 60px;
+	width: 81px;
+	font-size: 20.3pt;
+	font-family: Asap-Regular;
+	outline: none;
+	
+}
+.platform{
+	font-size: 16pt;
+	font-family: Asap-Regular;
+	color:#ffffff;
+}
